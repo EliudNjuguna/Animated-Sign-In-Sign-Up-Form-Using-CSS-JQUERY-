@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Sign In & Sign Up Form</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300,400" rel="stylesheet">
+
+</head>
+<body>
+   <div id="main">
+       <table border="0" cellspacing="3">
+           <tr>
+               <td>
+                   <div id="title">SIGN IN</div>
+                   <hr size="1px" width="100px" color="#000">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                  <input type="text" placeholder="USER ID">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                  <input type="password" placeholder="PASSWORD">
+               </td>
+           </tr>
+           <tr>
+               <td align="right">
+                   <div id="frt">FORGOT PASSWORD</div>
+               </td>
+           </tr>
+           <tr align="center">
+               <td>
+                   <input type="submit" value="SIGN IN" id="signInBtn">
+                </td>
+           </tr>
+           <tr>
+               <td align="center">
+                   <div id="signUpMsg">DON'T HAVE AN ACCOUNT    <a href="#" id="flipToSignUp">SIGN UP</a></div>
+               </td>
+           </tr>
+       </table>
+   </div>
+   
+   <!--SignUp Table-->
+   <div id="signUpForm">
+       <table border="0" cellspacing="3">
+           <tr>
+               <td>
+                   <div id="title">SIGN UP</div>
+                   <hr size="1px" width="100px" color="#000">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                  <input type="text" placeholder="FULL NAMES">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                  <input type="email" placeholder="EMAIL ID">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                  <input type="password" placeholder="PASSWORD">
+               </td>
+           </tr>
+           
+           <tr align="center">
+               <td>
+                   <input type="submit" value="SIGN UP" id="signUpBtn">
+                </td>
+           </tr>
+           <tr>
+               <td align="center">
+                   <div id="signInMsg">HAVE AN ACCOUNT    <a href="#" id="flipToSignIn">SIGN IN</a></div>
+               </td>
+           </tr>
+       </table>
+   </div>
+    
+    <!--scripts-->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
